@@ -1,4 +1,4 @@
-FROM arm32v7/openjdk:7-jre
+FROM arm64v8/openjdk:8-jre
 
 ARG kafka_version=2.3.0
 ARG scala_version=2.12
